@@ -204,4 +204,5 @@ The project also reflects real-world ML development practices such as iterative 
 ## Author
 
 **Ibrahim M. Hassan**
+
 Data Analytics & Machine Learning Portfolio Project
