@@ -22,6 +22,7 @@ The goal of this project is to build forecasting models capable of predicting fu
 **Dataset**
 
 Store Sales - Time Series Forecasting (https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data)
+
 The dataset contains historical retail sales transactions across multiple stores and product categories.
 Key files used:
 * train.csv
