@@ -88,6 +88,7 @@ These features help the model learn short-term demand momentum and weekly behavi
 **Rolling Statistics**
 
 * rolling_mean_7 -> a 7-day rolling average
+
 This smooths short-term fluctuations and captures broader sales trends.
 
 **Calendar Features**
