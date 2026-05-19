@@ -102,7 +102,7 @@ This was used to help the model identify unusual demand behavior during holidays
 
 ## Machine Learning Models
 
-**Baseline Model — Linear Regression**
+**Baseline Model — Linear Regression** 
 A Linear Regression model was initially trained using lag and rolling features.
 The model successfully captured:
 * Overall sales trend
@@ -113,7 +113,8 @@ However, the model struggled with:
 * Nonlinear behavior
 * Holiday anomalies
 
-**Advanced Model — Gradient Boosting Regressor**
+**Advanced Model — Gradient Boosting Regressor** 
+
 A Gradient Boosting Regressor was later implemented to improve forecasting accuracy.
 This model significantly improved:
 * Prediction accuracy
