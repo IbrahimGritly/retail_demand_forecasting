@@ -134,6 +134,7 @@ This model significantly improved:
 Forecasting performance was evaluated using **Mean Absolut Error (MAE)**.
 * **Model**: Linear Regression, **MAE**: ~84,245
 * **Model**: Gradient Boosting Regressor, **MAE**: ~71,937
+
 The Gradient Boosting model reduced forecasting error substantially and produced more realistic predictions overall.
 
 ---
