@@ -78,7 +78,7 @@ Key observations:
 ## Feature Engineering
 Several forecasting-focused features were engineered to improve predictive performance.
 
-**Lag Features:**
+**Lag Features**
 
 Historical sales values were used as predictors:
 * lag_1 -> previous day sales
@@ -86,10 +86,11 @@ Historical sales values were used as predictors:
 These features help the model learn short-term demand momentum and weekly behavioral patterns.
 
 **Rolling Statistics**
+
 * rolling_mean_7 -> a 7-day rolling average
 This smooths short-term fluctuations and captures broader sales trends.
 
-**Calendar Features:**
+**Calendar Features**
 
 Date-based features were extracted from the dataset:
 * Day of the week
