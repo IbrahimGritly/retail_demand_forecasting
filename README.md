@@ -19,7 +19,8 @@ The goal of this project is to build forecasting models capable of predicting fu
 
 ---
 
-**Dataset** 
+**Dataset**
+
 Store Sales - Time Series Forecasting (https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data)
 The dataset contains historical retail sales transactions across multiple stores and product categories.
 Key files used:
@@ -78,6 +79,7 @@ Key observations:
 Several forecasting-focused features were engineered to improve predictive performance.
 
 **Lag Features:**
+
 Historical sales values were used as predictors:
 * lag_1 -> previous day sales
 * lag_7 -> sales from the same day the previous week
@@ -88,6 +90,7 @@ These features help the model learn short-term demand momentum and weekly behavi
 This smooths short-term fluctuations and captures broader sales trends.
 
 **Calendar Features:**
+
 Date-based features were extracted from the dataset:
 * Day of the week
 * Month
@@ -95,6 +98,7 @@ Date-based features were extracted from the dataset:
 These features allow the model to capture seasonality and long-term growth patterns.
 
 **Holiday Features:**
+
 Holiday dates were merged into the dataset using **is_holiday**. 
 This was used to help the model identify unusual demand behavior during holidays and special events.
 
@@ -102,7 +106,8 @@ This was used to help the model identify unusual demand behavior during holidays
 
 ## Machine Learning Models
 
-**Baseline Model — Linear Regression** 
+**Baseline Model — Linear Regression**
+
 A Linear Regression model was initially trained using lag and rolling features.
 The model successfully captured:
 * Overall sales trend
@@ -189,13 +194,6 @@ This project demonstrates practical machine learning and forecasting skills rele
 - Business interpretation of ML results
 - Model comparison and experimentation
 The project also reflects real-world ML development practices such as iterative improvement, debugging, and feature-driven model optimization.
-
----
-
-## Deliverables
-- **Python** → [python/](python/)
-- **Project Report** → [report/](report/)
-- **Dashboard Screenshots** → [assets/](assets/)
 
 ---
 
