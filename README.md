@@ -167,9 +167,9 @@ retail_demand_forecasting/
 │
 ├── data/
 │   ├── train.csv
-│   ├── stores.csv
+│   ├── holiday_events.csv
 │   ├── oil.csv
-│   └── holiday_events.csv
+│   └── stores.csv
 │
 ├── python/
 │   ├── retail_demand_forecasting.ipynb
